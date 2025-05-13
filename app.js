@@ -12,21 +12,6 @@ if(localStorage.getItem(keyTaskList)) {
     }
 }
 
-// tasks = [
-//     {
-//         id: 1,
-//         text: 'Buy some bread'
-//     },
-//     {
-//         id: 2,
-//         text: 'Drink some water'
-//     },
-//     {
-//         id: 3,
-//         text: 'Jump from a plane'
-//     }
-// ]
-
 function addNewTask() {
     const elem_input = document.getElementById('new_task');
     const task_name = elem_input.value;
